@@ -723,7 +723,7 @@ function pushPreWarpWorld(xloc, yloc, worlds, offset, block) {
       pipe, i;
   
   warp = pushPreThing(WarpWorld, xloc, yloc + ceilmax).object;
-  var title = pushPreText({innerText: "WELCOME TO WARP ZONE!", style: {visibility: "hidden"} }, startx, 58);
+  var title = pushPreText({innerText: "¡ELIGE UNA PANESSIAVENTURA!", style: {visibility: "hidden"} }, startx, 58);
   warp.texts.push(title.object);
   
   for(i = 0; i < len; ++i) {
@@ -1122,13 +1122,13 @@ function World11(map) {
       greeter += "    <span style='font-size:65px;line-height:96px'>PANESSO BROS.</span>";
       greeter += "  </p>";
       greeter += "</div>";
-      greeter += "<div id='boo' style='text-align:right;color:#ffcccc;margin-top:-7px;width:350px;height:35px;'>&copy;1985 NINTENDO</div>";
+      greeter += "<div id='boo' style='text-align:right;color:#ffcccc;margin-top:-7px;width:350px;height:35px;'>&copy;2014 <a href='https://www.facebook.com/Holamama1234' target='_blank' style='font-size: 13px;color:blue'>Lucho&#39s Productions</a></div>";
       greeter += "<p id='explanation' style='text-align:center;<!--/*text-shadow:2px 2px 1px black;*/-->margin-left:7px;'>";
-      greeter += "  Move: Arrows/WASD";
+      greeter += "  Moverse: Flechas/WASD";
       greeter += "  <br>";
-      greeter += "  Fire/Sprint: Shift/CTRL";
+      greeter += "  Disparar/Correr: Shift/CTRL";
       greeter += "  <br>";
-      greeter += "  Pause/Mute: P/M ";
+      greeter += "  Pausar/Mudo: P/M ";
       // greeter += "  <br>";
       // greeter += "  TOP- " + (localStorage.highscore || "000000");
       greeter += "</p>";

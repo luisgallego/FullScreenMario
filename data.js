@@ -19,11 +19,11 @@ function Data() {
   this.playerpower = 1;
   this.traveled = this.traveledold = 0; // only used for random
   this.scorelevs = [100, 200, 400, 500, 800, 1000, 2000, 4000, 5000, 8000];
-  this.score = new DataObject(0, 6, "SCORE");
-  this.time = new DataObject(350, 3, "TIME");
-  this.world = new DataObject(0, 0, "WORLD");
-  this.coins = new DataObject(0, 0, "COINS");
-  this.lives = new DataObject(3, 1, "LIVES");
+  this.score = new DataObject(0, 6, "PUNTAJE");
+  this.time = new DataObject(350, 3, "TIEMPO");
+  this.world = new DataObject(0, 0, "NIVEL");
+  this.coins = new DataObject(0, 0, "MONEDAS");
+  this.lives = new DataObject(3, 1, "VIDAS");
   this.time.dir = -1;
   this.scoreold = 0;
 }
