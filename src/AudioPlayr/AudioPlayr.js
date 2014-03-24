@@ -288,7 +288,7 @@ function AudioPlayr(settings) {
   function reset(settings) {
     library           = settings.library           || {};
     filetypes         = settings.filetypes         || ["mp3", "ogg"];
-    muted             = settings.muted             || true;
+    muted             = settings.muted             || false;
     directory         = settings.directory         || "";
     localStorageMuted = settings.localStorageMuted || "";
     getVolumeLocal    = settings.getVolumeLocal    || 1;
